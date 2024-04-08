@@ -1,0 +1,40 @@
+.tiptap{
+  width: 1000px;
+  height: 1000px;
+  background-color: black;
+  color: white;
+}
+
+.tiptap table {
+  padding: 20px 0 0 0;
+  border-collapse: collapse;
+  margin: 0 ;
+  overflow: hidden;
+  table-layout: fixed;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tiptap table td,
+.tiptap table th {
+  border: 2px solid #ced4da;
+  box-sizing: border-box;
+  min-width: 1em;
+  padding: 3px 5px;
+  position: relative;
+  vertical-align: top;
+}
+
+.tableWrapper {
+  padding: 1rem 0;
+  overflow-x: auto;
+}
+
+.resize-cursor {
+  cursor: ew-resize;
+  cursor: col-resize;
+}
+
+.button_commands{
+  margin: 0 0 20px 0;
+}
